@@ -1,0 +1,26 @@
+Algoritmo<Notas dos alunos>
+
+Inicio
+
+Var
+REAL nota1,nota2,nota3, media
+CARACTERE nome
+
+escreva("Digite seu nome:")
+leia(nome)
+
+escreva(Nota da primeira prova:")
+leia(nota1)
+
+escreva(Nota da segunda prova:")
+leia(nota2)
+
+escreva(Nota da terceira prova:")
+leia(nota3)
+
+media <- (nota1+nota2+nota3) / 3
+
+Escreva("Nome do aluno:",nome)
+Escreva("Média: ",media)
+
+Fim
