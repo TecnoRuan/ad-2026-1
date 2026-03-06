@@ -1,0 +1,21 @@
+Algoritmo<Troca de Valores>
+
+Início
+
+var
+INTEIRO a, b, aux
+
+escreva("Digite o valor de a: ");
+leia (a)
+
+escreva("Digite o valor de b: ");
+leia (b)
+
+aux <- a
+a <- b
+b <- aux
+
+escreva("Novo valor de a:", a);
+escreva("Novo valor de b:", b);
+
+Fim

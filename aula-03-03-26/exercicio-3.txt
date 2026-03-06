@@ -1,0 +1,25 @@
+Algoritmo <SalarioComissionado>
+
+Início
+
+var
+CARACTERE nome
+REAL fixo, vendas, comissao, salariototal
+
+escreva("Nome do Vendedor: ")
+leia(nome)
+
+escreva("Salário Fixo: ")
+leia(fixo)
+
+escreva("Quantidade de vendas do mês: ")
+leia(vendas)
+
+comissao <- vendas * 0.15
+salariototal <- fixo + comissao
+
+escreva("Nome do vendedor: ", nome)
+escreva("Salário fixo: ", fixo
+escreva("Salário com comissão: ", salariototal)
+
+Fim
