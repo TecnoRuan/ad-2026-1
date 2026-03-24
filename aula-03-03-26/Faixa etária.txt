@@ -1,0 +1,19 @@
+Algoritmo<FaixaEtaria>
+
+var
+INTEIRO idade
+INTEIRO contador
+
+Inicio
+
+Escreva("Digite a sua idade: ", contador, ": ")
+leia(idade)
+
+se idade >= 60 entao
+	escreva("Idoso)
+senaose idade >=  18 entao
+	escreva("Maior de idade")
+senao
+	escreva("Menor de idade")
+
+Fim

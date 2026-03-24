@@ -1,0 +1,18 @@
+Algoritmo <Quantos por litro>
+
+var 
+REAL percorrido , gasto, kmporlitro
+
+Inicio
+
+escreva("Quantos kilômetros rodou? ");
+leia(percorrido);
+
+escreva("Quantos litros gastou? ");
+leia(gasto);
+
+kmporlitro <- percorrido / gasto;
+
+escreva("O carro faz ", kmporlitro , "km/l");
+
+Fim 

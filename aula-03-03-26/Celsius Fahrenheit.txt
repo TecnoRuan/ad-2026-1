@@ -1,0 +1,14 @@
+Algoritmo <celsiusfahrenheit>
+
+Var
+REAL celsius,fahrenheit
+
+Inicio
+escreva("Digite a temperatura em celsius: ");
+leia(celsius);
+
+fahrenheit<-(9*celsius+160) / 5;
+
+escreva("Temperatura em fahrenheit: ", fahrenheit);
+
+Fim

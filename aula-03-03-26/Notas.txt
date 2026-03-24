@@ -1,0 +1,34 @@
+Algoritmo<mediaaluno>
+
+var
+CARACTERE nome
+REAL nota1,nota2,nota3,soma,media
+
+Inicio 
+
+escreva("Nome do aluno: ")
+leia(nome)
+
+escreva("Primeira nota:")
+leia(nota1)
+
+escreva("Segunda nota:")
+leia(nota2)
+
+escreva("Terceira nota:")
+leia(nota3)
+
+soma<- nota1 + nota2 + nota3
+media<- soma / 3
+
+escreva("Nome: ", nome)
+escreva("Média: ", media)
+
+se media >= 7 entao
+	escreva("Aprovado)
+senaose media <= 5 entao
+	escreva("Reprovado")
+	senao
+	escreva("Recuperação")
+
+Fim

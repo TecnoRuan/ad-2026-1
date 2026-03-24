@@ -1,0 +1,39 @@
+Algoritmo<Tabuada>
+
+var
+INTEIRO N,T
+CARACTERE O
+
+Inicio
+escreva("Digite o valor da tabuada (N): ");
+leia(N);
+
+escreva("Digite o operador (+, 0, *, /): ");
+leia(O);
+
+escreva("Digite até onde vai a tabuada (T): ");
+leia(T);
+
+ tabuada(N, O, T);
+
+Fim
+
+funcao tabuada (N: inteiro, O: caractere, T: inteiro)
+
+var
+INTEIRO I
+REAL resultado
+
+Inicio para i<- 1 ate T faca
+
+se 0 = "+" entao
+	resultado<- N + i
+senaose 0 = "-" entao
+	resultado<- N - i
+senaose 0 = "*" entao
+	resultado<- N * i
+senaose 0 = "/" entao
+	resultado<- N / i
+escreva (N, " ", O, " ", i, " = ", resultado)
+
+Fim

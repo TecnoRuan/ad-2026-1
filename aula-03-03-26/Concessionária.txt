@@ -1,0 +1,39 @@
+Algoritmo <DescontoAutomoveis>
+
+var
+INTEIRO ano , ate2010, totalgeral
+REAL valor desconto valorfinal
+CARACTERE continuar
+
+Inicio
+
+escreva("Digite o ano do carro: ");
+leia(ano);
+
+escreva("Digite o valor do carro: ");
+leia(valor);
+
+se ano <= 2010 entao;
+	desconto <- valor * 0.12;
+	ate2010<- ate2010 + 1;
+senao;
+	desconto<- valor * 0.07;
+
+fimse;
+
+valorfinal <- valor - desconto;
+
+escreva(Valor do desconto: ", desconto);
+escreva("Valor a pagar: ", valorfinal);
+
+totalgeral<- totalgeral + 1;
+
+escreva ("Deseja continuar? (S/N): ");
+leia(continuar);
+
+ate continuar = "N" ou continuar = "n";
+
+escreva("Total de carros até 2010", totalate2010);
+escreva("Total geral de carros: " totalgeral);
+
+Fim

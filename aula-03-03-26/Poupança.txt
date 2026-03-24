@@ -1,0 +1,14 @@
+Algoritmo <RendimentoPoupanca>
+
+Var
+REAL deposito, rendimento
+
+Inicio
+escreva("Valor depositado: ")
+leia(deposito)
+
+rendimento<- deposito + (deposito * 0.007)
+
+escreva("Valor depois do primeiro mês: ", rendimento)
+
+Fim

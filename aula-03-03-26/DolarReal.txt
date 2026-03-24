@@ -1,0 +1,17 @@
+Algoritmo <ConversaoDolarReal>
+
+Var
+REAL cotacao, dolares, reais
+
+Inicio
+escreva("Cotação do dólar: ")
+leia(cotacao)
+
+escreva("Digite a quantidade de dólares: ")
+leia(dolares)
+
+reais<- cotacao * dolares
+
+escreva("Valor em reais: ", reais)
+
+Fim

@@ -1,0 +1,17 @@
+Algoritmo <CustoDoCarro>
+
+Var
+REAL custofabrica, custocomimposto, custofinal
+
+Inicio
+
+escreva("Custo de fábrica do carro: ")
+leia(custofabrica
+
+custocomimposto<- custofabrica + (custofabrica * 0.45)
+
+custofinal<- custocomimposto + (custocomimposto * 0.28)
+
+escreva("Custo final ao consumidor: ", custofinal)
+
+Fim

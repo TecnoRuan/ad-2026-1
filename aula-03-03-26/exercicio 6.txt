@@ -1,0 +1,31 @@
+Algoritmo <comparar e especificar>
+
+Inicio
+
+var
+INTEIRO numero1, numero2
+
+leia("Digite um número inteiro:" + numero1);
+leia("Digite outro número inteiro:" + numero2);
+
+se (numero1 > numero2) {
+	Escreva ("O primeiro é maior: " +numero1)
+	numeroMaior<-numero1
+}
+senaose(numero1=numero2){
+	Escreva ("Os números são iguais")
+}
+senao{
+	Escreva ("O segundo é maior: " +numero2)
+	numeroMaior<-numero2
+}
+se (numeromaior <100 E numero>0){
+	Escreva("Está no intervalo entre 1 e 99."
+}
+senaose(numeroMaior > 99 E numeroMaior < 200){
+	Escreva("O número está entre 100 e 199")
+}
+Senao{
+	Escreva("É maior que 200")
+
+Fim
