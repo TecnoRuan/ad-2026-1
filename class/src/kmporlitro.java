@@ -9,7 +9,7 @@ public class kmporlitro {
         System.out.println("Quanto foi gasto de combustível? ");
         gasolina = lerfloat.nextFloat();
         consumo = (float) (distancia / gasolina);
-        System.out.println("Seu carro faz "+consumo+" kilômetros por litro");
+        System.out.println("Seu veículo faz "+consumo+" kilômetros por litro");
     }
 
 }
