@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class javeirando {
+public class salario {
     public static void main(String[] args) {
         String nomevendedor;
         float salariofixo, valorvendas, salariototal;
