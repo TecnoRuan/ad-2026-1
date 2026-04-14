@@ -11,8 +11,11 @@ public class qualmaior {
                 if(num1>num2){
                     System.out.println("O numero 1 é maior");
                       numMaior=num1;
-                else if (numMaior >99 & numMaior < 200){
+                elseif (numMaior >99 & numMaior < 200);
                     System.out.println("O segundo numero digitado é maior: ");
         }
+    }
+
+    private static void elseif(boolean b) {
     }
 }
